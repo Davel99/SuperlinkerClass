@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    min-height: 15vh;
+}
+
+.noDeco{
+    text-decoration: none;
+    list-style: none;
+}
+.noDeco:hover{
+    text-decoration: none;
+}
+
+.square {
+    height: auto;
+    background: transparent;
+    background:linear-gradient(to top right, var(--primary) 50%, transparent 50%);
+}
+
+.text-minus{
+    font-size: smaller;
+}
+.text-minus-5{
+    font-size: xx-small;
+}
+
+.console{
+    font-family: 'Courier New', Courier, monospace
+}

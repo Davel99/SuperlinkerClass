@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superlinker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <header class="bg-primary" id="header">
+        <div class="w-100 bg-dark pb-2"></div>
+        <div class="d-flex">
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-6 bg-dark pl-0">
+                <div class="d-flex text-minus">
+                    <div class="col-md-1 square"></div>
+                    <div class="col-md-3 pr-3 text-right"><a href="https://www.facebook.com"
+                            class="text-white noDeco">Facebook</a></div>
+                    <div class="col-md-4 pr-3 text-right"><a href="www.twitter.com"
+                            class="text-white noDeco">Twitter</a></div>
+                    <div class="col-md-4 pr-3 text-right"><a href="www.instagram.com"
+                            class="text-white noDeco ">Instagram</a></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="p-3">
+            <div class="p-3 text-white">
+                <h6>These are the boring links without Superlinker ;)</h6>
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="pb-2 bg-light">
+            <div class="p-3">
+                <h5>Start with the default configuration of Superlinker! <span class="text-minus text-muted">It's easy!</span></h5>
+                <p>"Superlinker" allows your links to be aviable in your parent element, so your visitors will be able to get to your links without searching the small letters :D</p>
+                <p>You just have to load the script "superlinker.js" in your HTML document, it contains the "superlinker" class</p>
+                <p>First, add the "superlink-blank" or "superlink" classes to your "a" tag in your HTML, just like this:</p>
+                <div class="row px-5">
+                    <div class="col-8 bg-dark text-warning console">
+                        <div class="row px-2 border-bottom border-white">
+                            &#60;a class="superlink-blank" href="yourURL"&#62; Facebook &#60;/a&#62;
+                        </div>
+                        <div class="row px-2">
+                            &#60;a class="superlink" href="yourURL"&#62; Instagram &#60;/a&#62;
+                        </div>
+                    </div>
+                    <div class="col bg-white text-dark">
+                        <div class="row px-2 border-bottom border-dark">
+                            &#187; this will open the link in another tab
+
+                        </div>
+                        <div class="row px-2">
+                            &#187; this will open the link in the actual tab
+                        </div>
+
+                    </div>
+                </div>
+
+                <p>Now, let's see what's next! </p>
+                
+            </div>
+
+    </div>
+
+    <header class="bg-primary">
+        <div class="w-100 bg-dark pb-2"></div>
+        <div class="d-flex">
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-6 bg-dark pl-0">
+                <div class="d-flex text-minus">
+                    <div class="col-md-1 square"></div>
+                    <div class="col-md-3 pr-3 text-right"><a href="https://www.facebook.com"
+                            class="text-white noDeco superlink-blank">Facebook</a></div>
+                    <div class="col-md-4 pr-3 text-right"><a href="www.twitter.com"
+                            class="text-white noDeco superlink-blank">Twitter</a></div>
+                    <div class="col-md-4 pr-3 text-right"><a href="www.instagram.com"
+                            class="text-white noDeco superlink">Instagram</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="p-3 text-white">
+                <h5>This is the default configuration for Superlinker!</h5>
+                <p>Once you have prepared your workspace, you just have to add the next javascript code: </p>
+                <div class="row px-5 border-dark ">
+                    <div class="col bg-dark text-warning console">
+                        <div class="row px-2 border-bottom border-white">
+                            var superlink = new superlinker();
+                        </div>
+                        <div class="row px-2">
+                            superlink.exe();
+                        </div>
+                    </div>
+                    <div class="col bg-white text-dark">
+                        <div class="row px-2 border-bottom border-dark">
+                            &#187; this will start the "superlinker" class in your variable
+
+                        </div>
+                        <div class="row px-2">
+                            &#187; this will execute the class method which configurates your links
+                        </div>
+
+                    </div>
+                </div>
+                <h5>Check the result up there!</h5>
+                <p>The default configuration of superlink applies color "rgba(255,255,255,0.3)" on mouseenter event and makes the font 1.4 times bigger. It also makes your cursor to be a pointer ;)</p>
+                <p>Now you can click on any place of the parent box of the link! It's comfortable and beautiful :)</p>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <header class="bg-primary">
+        <div class="w-100 bg-dark pb-2"></div>
+        <div class="d-flex">
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-6 bg-dark pl-0">
+                <div class="d-flex text-minus">
+                    <div class="col-md-1 square"></div>
+                    <div class="col-md-3 pr-3 text-right"><a href="https://www.facebook.com"
+                            class="text-white noDeco nc-superlink-blank">Facebook</a></div>
+                    <div class="col-md-4 pr-3 text-right"><a href="www.twitter.com"
+                            class="text-white noDeco nc-superlink-blank">Twitter</a></div>
+                    <div class="col-md-4 pr-3 text-right"><a href="www.instagram.com"
+                            class="text-white noDeco nc-superlink">Instagram</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="p-3 text-white">
+                <h5>What about the Superlinker personalization!?</h5>
+                <p>You can change the background color and fontsize on the hover events!, see the example: </p>
+                <p>Upps! We need to change the classes for the superlink because they are different from the ones we have up there, just add the "blankClass" and "selfClass" parameters when you initialize the Superlinker class</p>
+                <div class="row px-5 border-dark ">
+                    <div class="col bg-dark text-warning console">
+                        <div class="row px-2 border-bottom border-white">
+                            var superlink = new superlinker({blankClass: 'nc-superlink-blank', 
+                            selfClass: 'nc-superlink', hover: {color: 'rgba(144, 0, 0, 0.3)', fontResize: 3}});
+                        </div>
+                        <div class="row px-2">
+                            superlink.exe();
+                        </div>
+                    </div>
+                    <div class="col bg-white text-dark">
+                        <div class="row px-2 border-bottom border-dark">
+                            &#187; this will start the "superlinker" with the following hover characteristics: 
+                            background color will change to <span class="pl-1" style="background-color: rgba(144, 0, 0, 0.3);"> rgba(144, 0, 0, 0.3) </span> 
+                             and the fontResize will increase 3 times :)
+                        </div>
+                        <div class="row px-2">
+                            &#187; this will execute the method with your configurations ;)
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <header class="bg-primary">
+        <div class="w-100 bg-dark pb-2"></div>
+        <div class="d-flex">
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-6 bg-dark pl-0">
+                <div class="d-flex text-minus">
+                    <div class="col-md-1 square"></div>
+                    <div class="col-md-3 pr-3 text-right"><a href="https://www.facebook.com"
+                            class="text-white noDeco lb">Facebook</a></div>
+                    <div class="col-md-4 pr-3 text-right"><a href="www.twitter.com"
+                            class="text-white noDeco lb">Twitter</a></div>
+                    <div class="col-md-4 pr-3 text-right"><a href="www.instagram.com"
+                            class="text-white noDeco l">Instagram</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <div class="p-3 text-white">
+                <h5>But i just want the link in the parent element! </h5>
+                <p>"Superlinker" adds a class to the parent element, so you can desactivate the hover effects and modify them in your CSS file :) </p>
+                <p>Follow the example: </p>
+                <div class="row px-5 border-dark ">
+                    <div class="col bg-dark text-warning console">
+                        <div class="row px-2 border-bottom border-white">
+                            var superlink = new superlinker({blankClass: 'lb', selfClass: 'l', hoverClass: 'hovered', hover: {fontResize:false, color:false}});
+                        </div>
+                        <div class="row px-2">
+                            superlink.exe();
+                        </div>
+                    </div>
+                    <div class="col-7 bg-white text-dark">
+                        <div class="row px-2 border-bottom border-dark">
+                            &#187; this will apply "hovered" class name to the parent element, so you can change the hover effects with CSS. 
+                            It also desactivates the hover configuration that the Superlink class makes
+                        </div>
+                        <div class="row px-2">
+                            &#187; this will execute the method with your configurations ;)
+                        </div>
+
+                    </div>
+                </div>
+
+                <p> The "hovered" class is the default class name for the parent element, but you can replace it for whatever you want. If you want to delete ALL hover effects
+                    you just have to add "{hover:false}" and it won't be there anymore (including the cursor pointer change), but you can click the parent element 
+                    and you will still get to your URL :)
+                </p>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main class="p-3 bg-light" id="main">
+        <div class="container p-3">
+            <div class="bg-white">
+                <h4 class="text-center"> Look for the documentation on my github profile :)</h4>
+                <div class="container mx-auto text-center p-3 border rounded border-primary">
+                    <a class="mySuperLink noDeco text-dark" href="https://github.com/Davel99">@Davel99</a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="p-3 bg-dark my-auto text-white" id="footer">
+        <div class="w-100 pt-3 text-center text-minus">
+            JOEL DAVID GOMEZ ORTEGA &copy;
+        </div>
+        <div class="w-100 pt-3 text-center text-minus-5">
+            JOEL DAVID GOMEZ ORTEGA &copy;
+        </div>
+
+    </footer>
+
+    <script src="superlinker.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
