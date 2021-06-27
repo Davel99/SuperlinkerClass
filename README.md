@@ -59,3 +59,25 @@ Now you have to add the javascript code on your main.js
         - transition (String): This is the transition CSS property that javascript is going to rewrite on the parent element.
         - fontResize (Integer|Boolean): This is the multiplier number for the fontsize on the parent element, so you can get an animation during the hover event. Write FALSE if you don't wan't a fontsize resizing. 
  
+  
+  
+You can just change whatever you want and the class.constructor will add the default values.
+```javascript
+  var superlink = new superliker({
+            blankClass: 'mylink',         
+            hoverClass: 'hovering',          
+            hover: {                
+                fontResize: 2
+            }
+        });
+```
+  
+Once you have your class configuration, you can call the exe() method wich receives two boolean parameters: blank and self. They are TRUE by default, so javascript will work with your links that will be opened on a new page (blank) or your links that will be opened on the same page (self).
+  
+```javascript
+  superlink.exe();
+```
+  
+  Check the result on the github page of this repo!
+  
+  
